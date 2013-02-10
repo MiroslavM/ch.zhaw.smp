@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+ <!-- 
+ <com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="AIzaSyCOmmYFebCzHFwNfT5cv7eXbvyYyXGUNRo"
+                 />
+   -->  
+    <com.google.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zoom"
+        android:layout_below="@+id/textView1"
+        android:apiKey="0E777ad9nLSTbHKw2xXkcb0JHD4hnv29J9AkYGg"
+        android:clickable="true"
+        android:enabled="true" />
+    
+ 	<LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        />
+
+ 	<TextView
+ 	    android:id="@+id/textView1"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentLeft="true"
+ 	    android:layout_alignParentRight="true"
+ 	    android:layout_alignParentTop="true"
+ 	    android:text="@string/gmapsactivity"
+ 	    android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+</RelativeLayout> 
+<!-- 
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/mapView"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  class="com.google.android.gms.maps.SupportMapFragment"/>
+
+  -->

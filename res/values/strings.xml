@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">smp</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="dummy_button">Dummy Button</string>
+    <string name="app_name">GoogleMaps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="edit_first_name">edit first name</string>
+    <string name="edit_last_name">edit lastname</string>
+    <string name="edit_email_address">edit email address</string>
+    <string name="button_send">send</string>
+    <string name="gmapsactivity">This is the google maps activity</string>
+    <string name="btnSwitchGMaps">Switch to GoogleMaps View</string>
 
 </resources>
